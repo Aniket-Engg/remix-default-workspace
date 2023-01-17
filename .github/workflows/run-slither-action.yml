@@ -10,3 +10,4 @@ jobs:
     - uses: crytic/slither-action@v0.2.0
       with:
         target: 'contracts/'
+        solc-version: '0.8.17'
